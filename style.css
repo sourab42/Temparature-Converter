@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(193, 250, 20);
+}
+#head{
+    color: hsl(208, 100%, 97%);
+    font-style: unset;
+}
+#para{
+    /* height: 29px;
+    width: 26%; */
+    margin-top: 100px;
+    /* margin-left: 17%; */
+    margin: 10000px 50px 0px 65px;
+    color: hsl(208, 100%, 97%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
+    font-size: 28px;
+}
+#tempCal{
+    
+    height: 150%;
+    width: 30%;
+    box-sizing: content-box;
+    background-color:rgb(52, 61, 114);
+    /* box-sizing: border-box; */
+    margin-top: 14%;
+    margin-left: 34%;
+    margin-right: 55%;
+    background-size: 3000px,120px;
+}
+#button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 22px;
+    width: 20%;
+    /* margin-left: 23%; */
+    margin-left: 40%;
+}
+#temp_diff{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 35px;
+    width: 27%;
+    margin-top: 10%;
+    margin-left: 0%;
+}
+#temp{
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    height: 29.5px;
+    width: 26%;
+    margin-left: 23%;
+}
+#resultContainer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 29px;
+    width: 26%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    color: hsl(208, 100%, 97%);
+}
