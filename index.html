@@ -8,21 +8,19 @@
 </head>
 <body>
     <form id="tempCal" onsubmit="calculateTemp(); return false">
-    <label for="temp" id="para"> Please enter the</label>
-    <br/> 
-    <label for="temp" id="para">temparture you'd</label>
-    <br/> 
-    <label for="temp" id="para">  like to convert.</label>
-    <br/> 
-    <input type="number" name="temp" id="temp">
-    <select name="temp_diff" id="temp_diff">
-        <option value="cel" >°Celcious</option>
-        <option value="fah" >°Fahrenheit</option>
-    </select><br/><br/>
-    <input id="button" type="submit" name="temp"><br/><br/>
-    <span id="resultContainer"></span>
-</form>
-
+        <div id="para">
+        <p id="p1"> Please enter the</p>
+        <p id="p2"> temparture you'd</p>
+        <p id="p3"> like to convert...</p>
+        </div>
+        <input type="number" name="temp" id="temp">
+        <select class="" name="temp_diff" id="temp_diff">
+            <option value="cel" >°Celcious</option>
+            <option value="fah" >°Fahrenheit</option>
+        </select><br/><br/>
+        <button id="button" type="submit" name="temp">Convert<br/><br/></button>
+        <div id="resultContainer"> </div>
+    </form>
     <script src="script.js"></script>
 
 </body>
