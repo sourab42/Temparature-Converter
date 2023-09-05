@@ -14,10 +14,10 @@ const calculateTemp= ()=>{
     let result
     if(valueTemp=='cel'){
         result=celToFah(numberTemp)
-        document.getElementById('resultContainer').innerHTML= `= ${result}°Fahrenheit`;
+        document.getElementById('resultContainer').innerHTML= `= ${result.toFixed(2)}°Fahrenheit`;
     }
     else{
         result=FahToCel(numberTemp)
-        document.getElementById('resultContainer').innerHTML= `= ${result}°Celcious`;
+        document.getElementById('resultContainer').innerHTML= `= ${result.toFixed(2)}°Celcious`;
     }
 }
